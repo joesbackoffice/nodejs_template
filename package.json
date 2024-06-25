@@ -1,7 +1,7 @@
 {
-  "name": "server_template",
+  "name": "nodejs_template",
   "version": "1.0.0",
-  "description": "jbo nodejs server template",
+  "description": "jbo nodejs template",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joesbackoffice/server_template.git"
+    "url": "git+https://github.com/joesbackoffice/nodejs_template.git"
   },
   "author": "joepasss",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joesbackoffice/server_template/issues"
+    "url": "https://github.com/joesbackoffice/nodejs_template/issues"
   },
-  "homepage": "https://github.com/joesbackoffice/server_template#readme",
+  "homepage": "https://github.com/joesbackoffice/nodejs_template#readme",
   "overrides": {
     "eslint": "^9.5.0"
   },
