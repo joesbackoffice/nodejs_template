@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "./scripts/test.sh",
-    "dev": "nodemon --watch \"src/**/*.ts\" --exec \"ts-node\" src/index.ts"
+    "dev": "nodemon --watch \"src/**/*.ts\" --exec \"ts-node\" src/index.ts",
+    "fmt:eslint-fix": "eslint --fix"
   },
   "repository": {
     "type": "git",
@@ -19,8 +20,12 @@
   },
   "homepage": "https://github.com/joesbackoffice/server_template#readme",
   "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "eslint": "^9.5.0",
+    "globals": "^15.6.0",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.2"
+    "typescript": "^5.5.2",
+    "typescript-eslint": "^7.14.1"
   }
 }
