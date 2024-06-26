@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "./scripts/test.sh",
-    "dev": "nodemon --watch \"src/**/*.ts\" --exec \"ts-node\" src/index.ts",
+    "dev": "./scripts/dev.sh",
     "fmt:eslint-fix": "eslint --fix",
     "prepare": "husky"
   },
@@ -20,15 +20,6 @@
     "url": "https://github.com/joesbackoffice/nodejs_template/issues"
   },
   "homepage": "https://github.com/joesbackoffice/nodejs_template#readme",
-  "overrides": {
-    "eslint": "^9.5.0"
-  },
-  "lint-staged": {
-    "*.{js, jsx, ts, tsx}": [
-      "npm run fmt:eslint-fix"
-    ]
-  },
-  "homepage": "https://github.com/joesbackoffice/server_template#readme",
   "overrides": {
     "eslint": "^9.5.0"
   },
